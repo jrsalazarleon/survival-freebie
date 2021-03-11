@@ -1,0 +1,8 @@
+.display-flex {
+    display: flex;
+    align-items: center;
+}
+
+.right-65px {
+    margin-right: 65px;
+}

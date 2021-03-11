@@ -1,0 +1,48 @@
+.main-header {
+    border: 1px solid red;
+    padding: 40px 0 0 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-list li a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 18px;
+    font-weight: var(--medium);
+}
+
+.nav-list li:last-child button {
+    width: 46px;
+    height: 46px;
+    background-color: var(--red);
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.nav-list li:nth-child(3) {
+    position: relative;
+    padding: 10px 0;
+}
+
+.nav-list li:nth-child(3)::after {
+    content: "";
+    display: inline-block;
+    height: 37px;
+    width: 1px;
+    position: absolute;
+    left: 110px;
+    bottom: 5px;
+    background-color: var(--black);
+    opacity: 30%;
+}
+
+.nav-list li:nth-child(4) {
+    margin: 0 50px 0 110px;
+}
+
+.nav-list li:last-child {
+    margin: 0 50px 0 50px;
+}
