@@ -1,0 +1,57 @@
+.popular-section-content {
+    border: 1px solid red;
+    display: flex;
+    margin-top: 105px;
+}
+
+.popular-section h2 {
+    font-size: 48px;
+    padding: 30px 0;
+}
+
+.popular-section article {
+    display: flex;
+    padding: 30px 0;
+}
+
+.popular-section article div {
+    margin: 55px 0 0 40px;
+}
+
+.popular-section article span {
+    font-size: 18px;
+    color: var(--red);
+}
+
+.popular-section article h3 {
+    font-size: 36px;
+}
+
+.popular-section article p {
+    font-size: 22px;
+    font-family: var(--teko-font);
+    margin-bottom: 30px;
+}
+
+.popular-section article a {
+    font-size: 22px;
+    text-decoration: none;
+    color: var(--black);
+    font-weight: var(--medium);
+}
+
+.popular-section article a::before {
+    content: "";
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-image: url(/resources/png/x-icon.png);
+    margin-right: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.popular-section article a:hover {
+    transition: .4s;
+    color: var(--red);
+}

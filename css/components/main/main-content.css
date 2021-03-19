@@ -88,3 +88,19 @@
     bottom: 75px;
     background-color: var(--red);
 }
+
+.image-number {
+   align-self: center;
+   align-items: flex-end;
+   position: relative;
+   left: 45px;
+}
+
+.image-number li {
+    font-weight: var(--bold);
+    font-size: 18px;
+}
+
+.image-number li:nth-child(1) {
+    font-size: 60px;
+}

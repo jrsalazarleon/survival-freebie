@@ -11,3 +11,7 @@
 .right-65px {
     margin-right: 65px;
 }
+
+.font-bold {
+    font-weight: var(--bold);
+}
