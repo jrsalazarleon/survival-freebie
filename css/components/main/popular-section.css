@@ -1,7 +1,8 @@
 .popular-section-content {
-    border: 1px solid red;
     display: flex;
+    justify-content: space-between;
     margin-top: 105px;
+    padding-right: 80px;
 }
 
 .popular-section h2 {
@@ -33,25 +34,66 @@
     margin-bottom: 30px;
 }
 
-.popular-section article a {
-    font-size: 22px;
-    text-decoration: none;
-    color: var(--black);
+.endurage-challenge-section {
+    align-items: center;
+    position: relative;
+    width: 650px;
+}
+
+.endurage-challenge-section h2 {
+    color: var(--white);
+    font-size: 180px;
+    font-weight: var(--medium);
+    letter-spacing: 15px;
+    line-height: 0.7;
+}
+
+.endurage-challenge-section span:nth-child(2) {
+    font-size: 60px;
+    font-weight: var(--medium);
+    color: var(--red);
+    position: absolute;
+    bottom: 95%;
+    right: 88%;
+}
+
+.endurage-challenge-section span:nth-child(3) {
+    color: var(--red);
+    font-size: 95px;
+    font-family: 'adevale-regular';
+    position: absolute;
+    top: 30px;
+    left: 315px;
+    transform: rotate(-15deg);
+}
+
+.endurage-challenge-section img {
+    position: absolute;
+    top: 130px;
+    right: 50px;
+    width: 650px;
+    height: 550px;
+}
+
+.endurage-text-wrapper {
+    align-self: flex-start;
+    margin-left: 70px;
+    margin-top: 25em;
+}
+
+.endurage-text-wrapper h3 {
+    font-size: 60px;
     font-weight: var(--medium);
 }
 
-.popular-section article a::before {
-    content: "";
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    background-image: url(/resources/png/x-icon.png);
-    margin-right: 20px;
-    position: relative;
-    top: 10px;
+.endurage-text-wrapper p:nth-child(2) {
+    font-size: 26px;
+    font-weight: var(--medium);
 }
 
-.popular-section article a:hover {
-    transition: .4s;
-    color: var(--red);
+.endurage-text-wrapper p:nth-child(3) {
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: var(--roboto-font);
+    padding: 25px 0; 
 }

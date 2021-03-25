@@ -15,3 +15,30 @@
 .font-bold {
     font-weight: var(--bold);
 }
+
+.find-out-more-link {
+    font-size: 22px;
+    text-decoration: none;
+    color: var(--black);
+    font-weight: var(--medium);
+}
+
+.find-out-more-link:hover {
+    transition: .4s;
+    color: var(--red);
+}
+
+.find-out-more-link::before {
+    content: "";
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-image: url(/resources/png/x-icon.png);
+    margin-right: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.position-relative {
+    position: relative;
+}
