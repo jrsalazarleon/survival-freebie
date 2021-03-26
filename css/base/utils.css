@@ -42,3 +42,15 @@
 .position-relative {
     position: relative;
 }
+
+.button-red {
+    width: 66px;
+    height: 66px;
+    background-color: var(--red);
+}
+
+.button-light-blue {
+    width: 66px;
+    height: 66px;
+    background-color: var(--light-blue);
+}

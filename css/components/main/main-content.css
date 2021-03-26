@@ -81,16 +81,12 @@
 
 .img-content button {
     position: absolute;
-    width: 66px;
-    height: 66px;
     right: 0;
     bottom: 10px;
-    background-color: var(--light-blue);
 }
 
 .img-content button:nth-child(2) {
     bottom: 75px;
-    background-color: var(--red);
 }
 
 .image-number {
