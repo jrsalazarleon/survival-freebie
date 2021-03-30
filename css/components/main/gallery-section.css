@@ -1,0 +1,20 @@
+.gallery-section {
+    margin-top: 170px;
+    display: flex;
+}
+
+.gallery-section article {
+    width: 510px;
+    height: 510px;
+    padding: 45px 0 18px 40px;
+}
+
+.gallery-section article:first-child {
+    margin-right: 40px;
+    background-image: url(/resources/png/camping-green-img.png);
+}
+
+.gallery-section article:nth-child(2) {
+    background-image: url(/resources/png/teapot-img.png);
+}
+

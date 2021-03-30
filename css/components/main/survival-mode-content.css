@@ -1,7 +1,9 @@
 .survival-mode-content {
     margin-top: 140px;
     display: flex;
+    justify-content: flex-end;
     padding-right: 160px;
+    position: relative;
 }
 
 .survival-mode-content h2 {
@@ -11,11 +13,13 @@
     letter-spacing: 10px;
     transform: rotate(-90deg);
     height: 250px;
-    position: relative;
-    top: 180px; 
+    position: absolute;
+    top: 200px;
+    right: 8em;
 }
 
 .img-survival-content {
+    flex-shrink: 0;
     width: 1385px;
     height: 615px;
     background-image: url(/resources/png/camping-img.png);

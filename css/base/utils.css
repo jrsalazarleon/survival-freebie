@@ -16,6 +16,10 @@
     font-weight: var(--bold);
 }
 
+.font-mediumn {
+    font-weight: var(--medium);
+}
+
 .find-out-more-link {
     font-size: 22px;
     text-decoration: none;

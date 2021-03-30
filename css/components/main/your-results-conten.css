@@ -55,4 +55,35 @@
     background-image: url(/resources/png/person-image.png);
     width: 1055px;
     height: 1020px;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.image-content svg {
+    position: absolute;
+    right: 85%;
+    bottom: 55px;
+}
+
+.image-text-content {
+    color: var(--light-white);
+    line-height: 1;
+    padding: 270px 20px 75px 100px;
+    position: relative;
+    top: 100px;
+    border: 30px solid var(--red);
+}
+
+.image-text-content h3 {
+    font-size: 60px;
+}
+
+.image-text-content p {
+    font-size: 36px;
+    padding: 50px 0 80px 0;
+}
+
+.image-text-content a {
+    color: var(--white);
 }
