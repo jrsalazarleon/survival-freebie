@@ -11,6 +11,11 @@
 @import "/css/base/variables.css";
 @import "/css/base/utils.css";
 @import "/css/base/reset.min.css";
+
+html {
+    background-color: var(--light-blue);
+}
+
 #root {
     margin: 0 auto;
     min-height: 100vh;

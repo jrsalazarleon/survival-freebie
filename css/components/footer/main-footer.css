@@ -1,0 +1,60 @@
+.main-footer {
+    display: flex;
+    padding-top: 50px;
+    max-width: 1600px;
+    height: 360px;
+    position: relative;
+    background-image: url(/resources/jpg/footer-background.jpg);
+}
+
+.logo-footer {
+    background-image: url(/resources/svg/logo-app-white.svg);
+    width: 225px;
+    height: 105px;
+    position: relative;
+    top: 80px;
+    left: 70px;
+}
+
+.main-footer ul h3 {
+    font-size: 48px;
+    color: var(--red);
+}
+
+.main-footer ul li a {
+    text-decoration: none;
+    color: var(--white);
+    font-family: var(--roboto-font);
+    line-height: 1.7;
+}
+
+.main-footer ul li a:hover {
+    padding-bottom: 2px;
+    border-bottom: 0.5px solid var(--red);
+    transition: .4s;
+}
+
+.challenges-list {
+    margin-left: 170px;
+}
+
+.footer-social-media {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 125px;
+}
+
+.footer-social-media a svg {
+    width: 30px;
+    height: 30px;
+}
+
+.advice-list {
+    margin-left: 130px;
+}
+
+.gallery-list {
+    margin-left: 130px;
+}
+

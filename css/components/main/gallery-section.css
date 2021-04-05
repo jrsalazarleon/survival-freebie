@@ -1,20 +1,83 @@
 .gallery-section {
     margin-top: 170px;
     display: flex;
+    padding-bottom: 200px;
+    position: relative;
 }
 
-.gallery-section article {
+.gallery-section > svg {
+    position: absolute;
+    bottom: 70px;
+    right: 150px;
+}
+
+.gallery-section a article {
     width: 510px;
     height: 510px;
     padding: 45px 0 18px 40px;
+    color: var(--white);
 }
 
-.gallery-section article:first-child {
+.gallery-section a {
+    text-decoration: none;
+}
+
+.gallery-section a:first-child {
     margin-right: 40px;
+}
+
+.gallery-section a:first-child article {
     background-image: url(/resources/png/camping-green-img.png);
 }
 
-.gallery-section article:nth-child(2) {
+.gallery-section a:nth-child(2) article {
     background-image: url(/resources/png/teapot-img.png);
 }
+
+.gallery-text {
+    margin-top: 285px;
+}
+
+.gallery-text span {
+    font-size: 22px;
+}
+
+.gallery-section a article p {
+    font-size: 36px;
+    line-height: 1;
+    margin-top: 25px;
+}
+
+.gallery-section > article {
+    width: 510px;
+    height: 510px;
+    padding: 133px 0 0 70px;
+}
+
+.photo-video-text-content {
+    position: relative;
+}
+
+.photo-video-text-content div:first-child {
+    font-size: 106px;
+    font-weight: var(--medium);
+}
+
+.photo-video-text-content div:nth-child(2) {
+    font-size: 70px;
+    font-family: 'adevale-regular';
+    color: var(--red);
+    transform: rotate(-15deg);
+    position: absolute;
+    top: 55px;
+    right: 55px;
+}
+
+.photo-video-wrapper p {
+    padding: 20px 0;
+    font-size: 16px;
+    font-family: var(--roboto-font);
+    line-height: 1.5;
+}
+
 
