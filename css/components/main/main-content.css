@@ -89,6 +89,21 @@
     bottom: 75px;
 }
 
+.slide {
+    display: flex;
+
+    position: relative;
+    max-width: 1174px;
+  
+}
+
+.slide-img {
+    flex-shrink: 0;
+    width: 100%;
+
+}
+
+
 .image-number {
    align-self: center;
    align-items: flex-end;

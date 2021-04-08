@@ -274,9 +274,22 @@
                     </svg>
                 </div>
 
-                <div class="img-content">
-                    <img src="/resources/jpg/mountain-image.jpg" alt="mountain image">
-                    <button class="button-red" type="button">
+                <section class="img-content">
+                        <div class="slide" id="slide">
+                            <div class="slide-img">
+                                <img src="/resources/jpg/main images/mountain-image.jpg" alt="mountain image">
+                            </div>
+    
+                            <div class="slide-img"> 
+                                <img src="/resources/jpg/main images/mountain-image-2.jpg" alt="mountain image">
+                            </div>
+    
+                            <div class="slide-img">
+                                <img src="/resources/jpg/main images/mountain-image-3.jpg" alt="mountain image">
+                            </div>
+                        </div>
+
+                    <button class="button-red" type="button" id="button-next">
                         <svg xmlns="http://www.w3.org/2000/svg" width="26.414" height="18.828"
                             viewBox="0 0 26.414 18.828">
                             <g id="ico_arrow" transform="translate(1 1.414)">
@@ -297,7 +310,8 @@
                         </svg>
 
                     </button>
-                    <button class="button-light-blue" type="button">
+
+                    <button class="button-light-blue" type="button" id="button-prev">
                         <svg xmlns="http://www.w3.org/2000/svg" width="26.414" height="18.828"
                             viewBox="0 0 26.414 18.828">
                             <g id="ico_arrow" transform="translate(1.414 1.414)">
@@ -318,7 +332,7 @@
                         </svg>
 
                     </button>
-                </div>
+                </section>
 
                 <ul class="image-number flex-column">
                     <li>01</li>
@@ -799,5 +813,5 @@
         </footer>
     </div>
 </body>
-
+<script src="/js/script.js"></script>
 </html>
