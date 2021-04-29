@@ -47,7 +47,7 @@
     width: 325px;
     margin-top: 126px;
     position: relative;
-        display: flex;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
@@ -89,26 +89,21 @@
     bottom: 75px;
 }
 
-.slide {
-    display: flex;
-
-    position: relative;
-    max-width: 1174px;
-  
-}
-
-.slide-img {
-    flex-shrink: 0;
-    width: 100%;
-
-}
-
-
 .image-number {
-   align-self: center;
-   align-items: flex-end;
-   position: relative;
-   left: 45px;
+    align-self: center;
+    align-items: flex-end;
+    position: relative;
+    left: 45px;
+}
+
+.slide-content {
+    display: flex;
+    max-width: 1174px;
+    max-height: 810px;
+}
+
+.slide-content img {
+    width: 100%;
 }
 
 .image-number li {
